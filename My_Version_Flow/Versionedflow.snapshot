@@ -1065,6 +1065,7 @@
         "y" : 225.39219685117303
       },
       "properties" : {
+        "test" : "test",
         "Store State" : "Do not store state",
         "schema.name" : "recordFormatName"
       },
@@ -1073,6 +1074,12 @@
           "displayName" : "Delete Attributes Expression",
           "identifiesControllerService" : false,
           "name" : "Delete Attributes Expression",
+          "sensitive" : false
+        },
+        "test" : {
+          "displayName" : "test",
+          "identifiesControllerService" : false,
+          "name" : "test",
           "sensitive" : false
         },
         "Store State" : {
