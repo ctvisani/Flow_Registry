@@ -8,14 +8,14 @@
     "connections" : [ ],
     "controllerServices" : [ ],
     "funnels" : [ ],
-    "identifier" : "8bfe9f9d-f240-388a-bc98-d08ea1e3273d",
+    "identifier" : "c9c70de9-a2dd-39ca-9417-f9fab8844448",
     "inputPorts" : [ ],
     "labels" : [ ],
     "name" : "Test",
     "outputPorts" : [ ],
     "position" : {
-      "x" : 285.0,
-      "y" : 82.0
+      "x" : 396.0,
+      "y" : 253.0
     },
     "processGroups" : [ ],
     "processors" : [ {
@@ -30,87 +30,7 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "8bfe9f9d-f240-388a-bc98-d08ea1e3273d",
-      "identifier" : "e7799bd2-af8b-3b98-8d11-4a0f61903981",
-      "name" : "PutFile",
-      "penaltyDuration" : "30 sec",
-      "position" : {
-        "x" : 948.0,
-        "y" : 571.0
-      },
-      "properties" : {
-        "Create Missing Directories" : "true",
-        "Conflict Resolution Strategy" : "fail"
-      },
-      "propertyDescriptors" : {
-        "Group" : {
-          "displayName" : "Group",
-          "identifiesControllerService" : false,
-          "name" : "Group",
-          "sensitive" : false
-        },
-        "Owner" : {
-          "displayName" : "Owner",
-          "identifiesControllerService" : false,
-          "name" : "Owner",
-          "sensitive" : false
-        },
-        "Create Missing Directories" : {
-          "displayName" : "Create Missing Directories",
-          "identifiesControllerService" : false,
-          "name" : "Create Missing Directories",
-          "sensitive" : false
-        },
-        "Permissions" : {
-          "displayName" : "Permissions",
-          "identifiesControllerService" : false,
-          "name" : "Permissions",
-          "sensitive" : false
-        },
-        "Maximum File Count" : {
-          "displayName" : "Maximum File Count",
-          "identifiesControllerService" : false,
-          "name" : "Maximum File Count",
-          "sensitive" : false
-        },
-        "Last Modified Time" : {
-          "displayName" : "Last Modified Time",
-          "identifiesControllerService" : false,
-          "name" : "Last Modified Time",
-          "sensitive" : false
-        },
-        "Directory" : {
-          "displayName" : "Directory",
-          "identifiesControllerService" : false,
-          "name" : "Directory",
-          "sensitive" : false
-        },
-        "Conflict Resolution Strategy" : {
-          "displayName" : "Conflict Resolution Strategy",
-          "identifiesControllerService" : false,
-          "name" : "Conflict Resolution Strategy",
-          "sensitive" : false
-        }
-      },
-      "runDurationMillis" : 0,
-      "schedulingPeriod" : "0 sec",
-      "schedulingStrategy" : "TIMER_DRIVEN",
-      "style" : { },
-      "type" : "org.apache.nifi.processors.standard.PutFile",
-      "yieldDuration" : "1 sec"
-    }, {
-      "autoTerminatedRelationships" : [ ],
-      "bulletinLevel" : "WARN",
-      "bundle" : {
-        "artifact" : "nifi-standard-nar",
-        "group" : "org.apache.nifi",
-        "version" : "1.7.1"
-      },
-      "comments" : "",
-      "componentType" : "PROCESSOR",
-      "concurrentlySchedulableTaskCount" : 1,
-      "executionNode" : "ALL",
-      "groupIdentifier" : "8bfe9f9d-f240-388a-bc98-d08ea1e3273d",
+      "groupIdentifier" : "c9c70de9-a2dd-39ca-9417-f9fab8844448",
       "identifier" : "102c3255-9bbe-3cbd-a988-0564f9b52272",
       "name" : "GetFile",
       "penaltyDuration" : "30 sec",
