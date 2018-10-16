@@ -1,0 +1,574 @@
+{
+  "header" : {
+    "dataModelVersion" : "2"
+  },
+  "content" : {
+    "comments" : "",
+    "componentType" : "PROCESS_GROUP",
+    "connections" : [ {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "7c3bf746-0166-1000-da48-7d6e19f95750",
+        "id" : "076dc4da-434d-3625-a76f-c728cf4528a0",
+        "name" : "UpdateAttribute",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "6c345964-36b1-3799-b090-b8fb40ef7150",
+      "identifier" : "28bdf225-a790-3462-976a-e4e239b3be87",
+      "labelIndex" : 1,
+      "name" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "success" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "7c3bf746-0166-1000-da48-7d6e19f95750",
+        "id" : "45b86b5a-759b-333b-b6a0-c9c820a8ad1e",
+        "name" : "GetFile",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "7c3bf746-0166-1000-da48-7d6e19f95750",
+        "id" : "e7829bfe-cb67-37b7-b731-7e3bb27cf295",
+        "name" : "UpdateAttribute",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "6c345964-36b1-3799-b090-b8fb40ef7150",
+      "identifier" : "1305f619-280f-358a-ba1d-9ac84519ba9b",
+      "labelIndex" : 1,
+      "name" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "failure", "success" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "7c3bf746-0166-1000-da48-7d6e19f95750",
+        "id" : "5ba0b1ac-e926-3b5b-9d5c-088d65aa7868",
+        "name" : "UpdateRecord",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "7c3bf746-0166-1000-da48-7d6e19f95750",
+        "id" : "5ba0b1ac-e926-3b5b-9d5c-088d65aa7868",
+        "name" : "UpdateRecord",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "6c345964-36b1-3799-b090-b8fb40ef7150",
+      "identifier" : "b9002054-8659-30ef-8d5b-13b12e27fa9e",
+      "labelIndex" : 1,
+      "name" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "failure", "success" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "7c3bf746-0166-1000-da48-7d6e19f95750",
+        "id" : "c94f9036-2de3-3853-953c-e7733e598db2",
+        "name" : "ConvertRecord",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "7c3bf746-0166-1000-da48-7d6e19f95750",
+        "id" : "c94f9036-2de3-3853-953c-e7733e598db2",
+        "name" : "ConvertRecord",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "6c345964-36b1-3799-b090-b8fb40ef7150",
+      "identifier" : "0778db2f-7685-30d6-af6b-61d1b52fb535",
+      "labelIndex" : 1,
+      "name" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "success" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "7c3bf746-0166-1000-da48-7d6e19f95750",
+        "id" : "076dc4da-434d-3625-a76f-c728cf4528a0",
+        "name" : "UpdateAttribute",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    }, {
+      "backPressureDataSizeThreshold" : "1 GB",
+      "backPressureObjectThreshold" : 10000,
+      "bends" : [ ],
+      "componentType" : "CONNECTION",
+      "destination" : {
+        "comments" : "",
+        "groupId" : "7c3bf746-0166-1000-da48-7d6e19f95750",
+        "id" : "b0b970c9-7e0c-35e1-bdb7-ec06e32eade3",
+        "name" : "PutFile",
+        "type" : "PROCESSOR"
+      },
+      "flowFileExpiration" : "0 sec",
+      "groupIdentifier" : "6c345964-36b1-3799-b090-b8fb40ef7150",
+      "identifier" : "27bb2fe7-3947-3734-bfe5-5223526013a7",
+      "labelIndex" : 1,
+      "name" : "",
+      "prioritizers" : [ ],
+      "selectedRelationships" : [ "success" ],
+      "source" : {
+        "comments" : "",
+        "groupId" : "7c3bf746-0166-1000-da48-7d6e19f95750",
+        "id" : "e7829bfe-cb67-37b7-b731-7e3bb27cf295",
+        "name" : "UpdateAttribute",
+        "type" : "PROCESSOR"
+      },
+      "zIndex" : 0
+    } ],
+    "controllerServices" : [ ],
+    "funnels" : [ ],
+    "identifier" : "6c345964-36b1-3799-b090-b8fb40ef7150",
+    "inputPorts" : [ ],
+    "labels" : [ ],
+    "name" : "CsvToJson",
+    "outputPorts" : [ ],
+    "position" : {
+      "x" : 1738.8178365430258,
+      "y" : 223.3085286670855
+    },
+    "processGroups" : [ ],
+    "processors" : [ {
+      "autoTerminatedRelationships" : [ ],
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-standard-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.7.1"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "6c345964-36b1-3799-b090-b8fb40ef7150",
+      "identifier" : "45b86b5a-759b-333b-b6a0-c9c820a8ad1e",
+      "name" : "GetFile",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 1414.1877027259366,
+        "y" : -64.65442978339058
+      },
+      "properties" : {
+        "Keep Source File" : "false",
+        "Minimum File Age" : "0 sec",
+        "Polling Interval" : "0 sec",
+        "Input Directory" : "/home/chintanvi/DataSet/get",
+        "Batch Size" : "10",
+        "Minimum File Size" : "0 B",
+        "Ignore Hidden Files" : "true",
+        "Recurse Subdirectories" : "true",
+        "File Filter" : "[^\\.].*"
+      },
+      "propertyDescriptors" : {
+        "Keep Source File" : {
+          "displayName" : "Keep Source File",
+          "identifiesControllerService" : false,
+          "name" : "Keep Source File",
+          "sensitive" : false
+        },
+        "Minimum File Age" : {
+          "displayName" : "Minimum File Age",
+          "identifiesControllerService" : false,
+          "name" : "Minimum File Age",
+          "sensitive" : false
+        },
+        "Polling Interval" : {
+          "displayName" : "Polling Interval",
+          "identifiesControllerService" : false,
+          "name" : "Polling Interval",
+          "sensitive" : false
+        },
+        "Input Directory" : {
+          "displayName" : "Input Directory",
+          "identifiesControllerService" : false,
+          "name" : "Input Directory",
+          "sensitive" : false
+        },
+        "Maximum File Age" : {
+          "displayName" : "Maximum File Age",
+          "identifiesControllerService" : false,
+          "name" : "Maximum File Age",
+          "sensitive" : false
+        },
+        "Batch Size" : {
+          "displayName" : "Batch Size",
+          "identifiesControllerService" : false,
+          "name" : "Batch Size",
+          "sensitive" : false
+        },
+        "Maximum File Size" : {
+          "displayName" : "Maximum File Size",
+          "identifiesControllerService" : false,
+          "name" : "Maximum File Size",
+          "sensitive" : false
+        },
+        "Minimum File Size" : {
+          "displayName" : "Minimum File Size",
+          "identifiesControllerService" : false,
+          "name" : "Minimum File Size",
+          "sensitive" : false
+        },
+        "Ignore Hidden Files" : {
+          "displayName" : "Ignore Hidden Files",
+          "identifiesControllerService" : false,
+          "name" : "Ignore Hidden Files",
+          "sensitive" : false
+        },
+        "Recurse Subdirectories" : {
+          "displayName" : "Recurse Subdirectories",
+          "identifiesControllerService" : false,
+          "name" : "Recurse Subdirectories",
+          "sensitive" : false
+        },
+        "File Filter" : {
+          "displayName" : "File Filter",
+          "identifiesControllerService" : false,
+          "name" : "File Filter",
+          "sensitive" : false
+        },
+        "Path Filter" : {
+          "displayName" : "Path Filter",
+          "identifiesControllerService" : false,
+          "name" : "Path Filter",
+          "sensitive" : false
+        }
+      },
+      "runDurationMillis" : 0,
+      "schedulingPeriod" : "10 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.standard.GetFile",
+      "yieldDuration" : "1 sec"
+    }, {
+      "autoTerminatedRelationships" : [ "success", "failure" ],
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-standard-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.7.1"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "6c345964-36b1-3799-b090-b8fb40ef7150",
+      "identifier" : "b0b970c9-7e0c-35e1-bdb7-ec06e32eade3",
+      "name" : "PutFile",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 1359.1868609142975,
+        "y" : 765.6886606183971
+      },
+      "properties" : {
+        "Create Missing Directories" : "true",
+        "Directory" : "/home/chintanvi/DataSet/put",
+        "Conflict Resolution Strategy" : "replace"
+      },
+      "propertyDescriptors" : {
+        "Group" : {
+          "displayName" : "Group",
+          "identifiesControllerService" : false,
+          "name" : "Group",
+          "sensitive" : false
+        },
+        "Owner" : {
+          "displayName" : "Owner",
+          "identifiesControllerService" : false,
+          "name" : "Owner",
+          "sensitive" : false
+        },
+        "Create Missing Directories" : {
+          "displayName" : "Create Missing Directories",
+          "identifiesControllerService" : false,
+          "name" : "Create Missing Directories",
+          "sensitive" : false
+        },
+        "Permissions" : {
+          "displayName" : "Permissions",
+          "identifiesControllerService" : false,
+          "name" : "Permissions",
+          "sensitive" : false
+        },
+        "Maximum File Count" : {
+          "displayName" : "Maximum File Count",
+          "identifiesControllerService" : false,
+          "name" : "Maximum File Count",
+          "sensitive" : false
+        },
+        "Last Modified Time" : {
+          "displayName" : "Last Modified Time",
+          "identifiesControllerService" : false,
+          "name" : "Last Modified Time",
+          "sensitive" : false
+        },
+        "Directory" : {
+          "displayName" : "Directory",
+          "identifiesControllerService" : false,
+          "name" : "Directory",
+          "sensitive" : false
+        },
+        "Conflict Resolution Strategy" : {
+          "displayName" : "Conflict Resolution Strategy",
+          "identifiesControllerService" : false,
+          "name" : "Conflict Resolution Strategy",
+          "sensitive" : false
+        }
+      },
+      "runDurationMillis" : 0,
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.standard.PutFile",
+      "yieldDuration" : "1 sec"
+    }, {
+      "autoTerminatedRelationships" : [ ],
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-standard-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.7.1"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "6c345964-36b1-3799-b090-b8fb40ef7150",
+      "identifier" : "c94f9036-2de3-3853-953c-e7733e598db2",
+      "name" : "ConvertRecord",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 1387.8112642364554,
+        "y" : 468.5764823551391
+      },
+      "properties" : {
+        "record-writer" : "358adbdf-ce95-35f3-9223-1fa7ed83deef",
+        "record-reader" : "d542780f-a36f-30d5-b5f4-9bb39f3872b3"
+      },
+      "propertyDescriptors" : {
+        "record-writer" : {
+          "displayName" : "Record Writer",
+          "identifiesControllerService" : true,
+          "name" : "record-writer",
+          "sensitive" : false
+        },
+        "record-reader" : {
+          "displayName" : "Record Reader",
+          "identifiesControllerService" : true,
+          "name" : "record-reader",
+          "sensitive" : false
+        }
+      },
+      "runDurationMillis" : 0,
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.standard.ConvertRecord",
+      "yieldDuration" : "1 sec"
+    }, {
+      "autoTerminatedRelationships" : [ ],
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-standard-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.7.1"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "6c345964-36b1-3799-b090-b8fb40ef7150",
+      "identifier" : "5ba0b1ac-e926-3b5b-9d5c-088d65aa7868",
+      "name" : "UpdateRecord",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 2050.2976721585637,
+        "y" : 368.88079229002415
+      },
+      "properties" : {
+        "record-writer" : "f7e665e0-8ac8-38c8-9bc6-922f29424c82",
+        "record-reader" : "fffc3275-08a5-3dbe-98e4-741d11dca9c7",
+        "replacement-value-strategy" : "literal-value",
+        "/DemoGender" : "${field.value:equals('f'):ifElse('101','102')}"
+      },
+      "propertyDescriptors" : {
+        "record-writer" : {
+          "displayName" : "Record Writer",
+          "identifiesControllerService" : true,
+          "name" : "record-writer",
+          "sensitive" : false
+        },
+        "record-reader" : {
+          "displayName" : "Record Reader",
+          "identifiesControllerService" : true,
+          "name" : "record-reader",
+          "sensitive" : false
+        },
+        "replacement-value-strategy" : {
+          "displayName" : "Replacement Value Strategy",
+          "identifiesControllerService" : false,
+          "name" : "replacement-value-strategy",
+          "sensitive" : false
+        },
+        "/DemoGender" : {
+          "displayName" : "/DemoGender",
+          "identifiesControllerService" : false,
+          "name" : "/DemoGender",
+          "sensitive" : false
+        }
+      },
+      "runDurationMillis" : 0,
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.standard.UpdateRecord",
+      "yieldDuration" : "1 sec"
+    }, {
+      "annotationData" : "<criteria>\n    <flowFilePolicy>USE_ORIGINAL</flowFilePolicy>\n</criteria>",
+      "autoTerminatedRelationships" : [ ],
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-update-attribute-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.7.1"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "6c345964-36b1-3799-b090-b8fb40ef7150",
+      "identifier" : "e7829bfe-cb67-37b7-b731-7e3bb27cf295",
+      "name" : "UpdateAttribute",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 1967.750926274161,
+        "y" : 677.6200943898754
+      },
+      "properties" : {
+        "filename" : "mydemo.json",
+        "DemoGender" : "101",
+        "Store State" : "Do not store state"
+      },
+      "propertyDescriptors" : {
+        "Delete Attributes Expression" : {
+          "displayName" : "Delete Attributes Expression",
+          "identifiesControllerService" : false,
+          "name" : "Delete Attributes Expression",
+          "sensitive" : false
+        },
+        "filename" : {
+          "displayName" : "filename",
+          "identifiesControllerService" : false,
+          "name" : "filename",
+          "sensitive" : false
+        },
+        "DemoGender" : {
+          "displayName" : "DemoGender",
+          "identifiesControllerService" : false,
+          "name" : "DemoGender",
+          "sensitive" : false
+        },
+        "Store State" : {
+          "displayName" : "Store State",
+          "identifiesControllerService" : false,
+          "name" : "Store State",
+          "sensitive" : false
+        },
+        "Stateful Variables Initial Value" : {
+          "displayName" : "Stateful Variables Initial Value",
+          "identifiesControllerService" : false,
+          "name" : "Stateful Variables Initial Value",
+          "sensitive" : false
+        }
+      },
+      "runDurationMillis" : 0,
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.attributes.UpdateAttribute",
+      "yieldDuration" : "1 sec"
+    }, {
+      "autoTerminatedRelationships" : [ ],
+      "bulletinLevel" : "WARN",
+      "bundle" : {
+        "artifact" : "nifi-update-attribute-nar",
+        "group" : "org.apache.nifi",
+        "version" : "1.7.1"
+      },
+      "comments" : "",
+      "componentType" : "PROCESSOR",
+      "concurrentlySchedulableTaskCount" : 1,
+      "executionNode" : "ALL",
+      "groupIdentifier" : "6c345964-36b1-3799-b090-b8fb40ef7150",
+      "identifier" : "076dc4da-434d-3625-a76f-c728cf4528a0",
+      "name" : "UpdateAttribute",
+      "penaltyDuration" : "30 sec",
+      "position" : {
+        "x" : 1417.926907142152,
+        "y" : 263.5586288841887
+      },
+      "properties" : {
+        "Store State" : "Do not store state",
+        "schema.name" : "recordFormatName"
+      },
+      "propertyDescriptors" : {
+        "Delete Attributes Expression" : {
+          "displayName" : "Delete Attributes Expression",
+          "identifiesControllerService" : false,
+          "name" : "Delete Attributes Expression",
+          "sensitive" : false
+        },
+        "Store State" : {
+          "displayName" : "Store State",
+          "identifiesControllerService" : false,
+          "name" : "Store State",
+          "sensitive" : false
+        },
+        "schema.name" : {
+          "displayName" : "schema.name",
+          "identifiesControllerService" : false,
+          "name" : "schema.name",
+          "sensitive" : false
+        },
+        "Stateful Variables Initial Value" : {
+          "displayName" : "Stateful Variables Initial Value",
+          "identifiesControllerService" : false,
+          "name" : "Stateful Variables Initial Value",
+          "sensitive" : false
+        }
+      },
+      "runDurationMillis" : 0,
+      "schedulingPeriod" : "0 sec",
+      "schedulingStrategy" : "TIMER_DRIVEN",
+      "style" : { },
+      "type" : "org.apache.nifi.processors.attributes.UpdateAttribute",
+      "yieldDuration" : "1 sec"
+    } ],
+    "remoteProcessGroups" : [ ],
+    "variables" : { }
+  }
+}
