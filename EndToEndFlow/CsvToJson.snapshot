@@ -12,13 +12,13 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "7c3bf746-0166-1000-da48-7d6e19f95750",
+        "groupId" : "7c46cc3a-0166-1000-3bb6-b86bd7d0e934",
         "id" : "076dc4da-434d-3625-a76f-c728cf4528a0",
         "name" : "UpdateAttribute",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "6c345964-36b1-3799-b090-b8fb40ef7150",
+      "groupIdentifier" : "9a512335-95d3-3780-83f0-75c2bfd3374a",
       "identifier" : "28bdf225-a790-3462-976a-e4e239b3be87",
       "labelIndex" : 1,
       "name" : "",
@@ -26,7 +26,7 @@
       "selectedRelationships" : [ "success" ],
       "source" : {
         "comments" : "",
-        "groupId" : "7c3bf746-0166-1000-da48-7d6e19f95750",
+        "groupId" : "7c46cc3a-0166-1000-3bb6-b86bd7d0e934",
         "id" : "45b86b5a-759b-333b-b6a0-c9c820a8ad1e",
         "name" : "GetFile",
         "type" : "PROCESSOR"
@@ -39,21 +39,21 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "7c3bf746-0166-1000-da48-7d6e19f95750",
+        "groupId" : "7c46cc3a-0166-1000-3bb6-b86bd7d0e934",
         "id" : "e7829bfe-cb67-37b7-b731-7e3bb27cf295",
         "name" : "UpdateAttribute",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "6c345964-36b1-3799-b090-b8fb40ef7150",
+      "groupIdentifier" : "9a512335-95d3-3780-83f0-75c2bfd3374a",
       "identifier" : "1305f619-280f-358a-ba1d-9ac84519ba9b",
       "labelIndex" : 1,
       "name" : "",
       "prioritizers" : [ ],
-      "selectedRelationships" : [ "failure", "success" ],
+      "selectedRelationships" : [ "success", "failure" ],
       "source" : {
         "comments" : "",
-        "groupId" : "7c3bf746-0166-1000-da48-7d6e19f95750",
+        "groupId" : "7c46cc3a-0166-1000-3bb6-b86bd7d0e934",
         "id" : "5ba0b1ac-e926-3b5b-9d5c-088d65aa7868",
         "name" : "UpdateRecord",
         "type" : "PROCESSOR"
@@ -66,21 +66,21 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "7c3bf746-0166-1000-da48-7d6e19f95750",
+        "groupId" : "7c46cc3a-0166-1000-3bb6-b86bd7d0e934",
         "id" : "5ba0b1ac-e926-3b5b-9d5c-088d65aa7868",
         "name" : "UpdateRecord",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "6c345964-36b1-3799-b090-b8fb40ef7150",
+      "groupIdentifier" : "9a512335-95d3-3780-83f0-75c2bfd3374a",
       "identifier" : "b9002054-8659-30ef-8d5b-13b12e27fa9e",
       "labelIndex" : 1,
       "name" : "",
       "prioritizers" : [ ],
-      "selectedRelationships" : [ "failure", "success" ],
+      "selectedRelationships" : [ "success", "failure" ],
       "source" : {
         "comments" : "",
-        "groupId" : "7c3bf746-0166-1000-da48-7d6e19f95750",
+        "groupId" : "7c46cc3a-0166-1000-3bb6-b86bd7d0e934",
         "id" : "c94f9036-2de3-3853-953c-e7733e598db2",
         "name" : "ConvertRecord",
         "type" : "PROCESSOR"
@@ -93,13 +93,13 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "7c3bf746-0166-1000-da48-7d6e19f95750",
+        "groupId" : "7c46cc3a-0166-1000-3bb6-b86bd7d0e934",
         "id" : "c94f9036-2de3-3853-953c-e7733e598db2",
         "name" : "ConvertRecord",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "6c345964-36b1-3799-b090-b8fb40ef7150",
+      "groupIdentifier" : "9a512335-95d3-3780-83f0-75c2bfd3374a",
       "identifier" : "0778db2f-7685-30d6-af6b-61d1b52fb535",
       "labelIndex" : 1,
       "name" : "",
@@ -107,7 +107,7 @@
       "selectedRelationships" : [ "success" ],
       "source" : {
         "comments" : "",
-        "groupId" : "7c3bf746-0166-1000-da48-7d6e19f95750",
+        "groupId" : "7c46cc3a-0166-1000-3bb6-b86bd7d0e934",
         "id" : "076dc4da-434d-3625-a76f-c728cf4528a0",
         "name" : "UpdateAttribute",
         "type" : "PROCESSOR"
@@ -120,13 +120,13 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "7c3bf746-0166-1000-da48-7d6e19f95750",
+        "groupId" : "7c46cc3a-0166-1000-3bb6-b86bd7d0e934",
         "id" : "b0b970c9-7e0c-35e1-bdb7-ec06e32eade3",
         "name" : "PutFile",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "6c345964-36b1-3799-b090-b8fb40ef7150",
+      "groupIdentifier" : "9a512335-95d3-3780-83f0-75c2bfd3374a",
       "identifier" : "27bb2fe7-3947-3734-bfe5-5223526013a7",
       "labelIndex" : 1,
       "name" : "",
@@ -134,7 +134,7 @@
       "selectedRelationships" : [ "success" ],
       "source" : {
         "comments" : "",
-        "groupId" : "7c3bf746-0166-1000-da48-7d6e19f95750",
+        "groupId" : "7c46cc3a-0166-1000-3bb6-b86bd7d0e934",
         "id" : "e7829bfe-cb67-37b7-b731-7e3bb27cf295",
         "name" : "UpdateAttribute",
         "type" : "PROCESSOR"
@@ -143,14 +143,14 @@
     } ],
     "controllerServices" : [ ],
     "funnels" : [ ],
-    "identifier" : "6c345964-36b1-3799-b090-b8fb40ef7150",
+    "identifier" : "9a512335-95d3-3780-83f0-75c2bfd3374a",
     "inputPorts" : [ ],
     "labels" : [ ],
     "name" : "CsvToJson",
     "outputPorts" : [ ],
     "position" : {
-      "x" : 1738.8178365430258,
-      "y" : 223.3085286670855
+      "x" : 1273.1868092954458,
+      "y" : -42.46545616895696
     },
     "processGroups" : [ ],
     "processors" : [ {
@@ -165,7 +165,7 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "6c345964-36b1-3799-b090-b8fb40ef7150",
+      "groupIdentifier" : "9a512335-95d3-3780-83f0-75c2bfd3374a",
       "identifier" : "45b86b5a-759b-333b-b6a0-c9c820a8ad1e",
       "name" : "GetFile",
       "penaltyDuration" : "30 sec",
@@ -177,7 +177,7 @@
         "Keep Source File" : "false",
         "Minimum File Age" : "0 sec",
         "Polling Interval" : "0 sec",
-        "Input Directory" : "/home/chintanvi/DataSet/get",
+        "Input Directory" : "${inputFilePath}",
         "Batch Size" : "10",
         "Minimum File Size" : "0 B",
         "Ignore Hidden Files" : "true",
@@ -276,7 +276,7 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "6c345964-36b1-3799-b090-b8fb40ef7150",
+      "groupIdentifier" : "9a512335-95d3-3780-83f0-75c2bfd3374a",
       "identifier" : "b0b970c9-7e0c-35e1-bdb7-ec06e32eade3",
       "name" : "PutFile",
       "penaltyDuration" : "30 sec",
@@ -286,7 +286,7 @@
       },
       "properties" : {
         "Create Missing Directories" : "true",
-        "Directory" : "/home/chintanvi/DataSet/put",
+        "Directory" : "${outputFilePath}",
         "Conflict Resolution Strategy" : "replace"
       },
       "propertyDescriptors" : {
@@ -357,7 +357,7 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "6c345964-36b1-3799-b090-b8fb40ef7150",
+      "groupIdentifier" : "9a512335-95d3-3780-83f0-75c2bfd3374a",
       "identifier" : "c94f9036-2de3-3853-953c-e7733e598db2",
       "name" : "ConvertRecord",
       "penaltyDuration" : "30 sec",
@@ -401,7 +401,7 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "6c345964-36b1-3799-b090-b8fb40ef7150",
+      "groupIdentifier" : "9a512335-95d3-3780-83f0-75c2bfd3374a",
       "identifier" : "5ba0b1ac-e926-3b5b-9d5c-088d65aa7868",
       "name" : "UpdateRecord",
       "penaltyDuration" : "30 sec",
@@ -460,7 +460,7 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "6c345964-36b1-3799-b090-b8fb40ef7150",
+      "groupIdentifier" : "9a512335-95d3-3780-83f0-75c2bfd3374a",
       "identifier" : "e7829bfe-cb67-37b7-b731-7e3bb27cf295",
       "name" : "UpdateAttribute",
       "penaltyDuration" : "30 sec",
@@ -523,7 +523,7 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "6c345964-36b1-3799-b090-b8fb40ef7150",
+      "groupIdentifier" : "9a512335-95d3-3780-83f0-75c2bfd3374a",
       "identifier" : "076dc4da-434d-3625-a76f-c728cf4528a0",
       "name" : "UpdateAttribute",
       "penaltyDuration" : "30 sec",
@@ -569,6 +569,9 @@
       "yieldDuration" : "1 sec"
     } ],
     "remoteProcessGroups" : [ ],
-    "variables" : { }
+    "variables" : {
+      "inputFilePath" : "/home/chintanvi/DataSet/get",
+      "outputFilePath" : "/home/chintanvi/DataSet/put"
+    }
   }
 }
