@@ -1,4 +1,4 @@
 flows:
-  42bdbcb8-f070-4604-912e-ac2775228be5: {ver: 4, file: CsvToJson.snapshot}
+  42bdbcb8-f070-4604-912e-ac2775228be5: {ver: 5, file: CsvToJson.snapshot}
 layoutVer: 1
 bucketId: 5a467824-c9a8-4b5b-aac0-16802a14ce08

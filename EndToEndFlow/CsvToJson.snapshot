@@ -12,13 +12,13 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "8168cac5-0166-1000-1dd7-5dc9d87aeb1f",
+        "groupId" : "819e6283-0166-1000-86bf-27912fa89773",
         "id" : "076dc4da-434d-3625-a76f-c728cf4528a0",
         "name" : "UpdateAttribute",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "a3c81ace-658b-3581-b8cc-55d3b68b5cd5",
+      "groupIdentifier" : "e4bffe34-7d03-3c6f-92bf-291c01c487c7",
       "identifier" : "28bdf225-a790-3462-976a-e4e239b3be87",
       "labelIndex" : 1,
       "name" : "",
@@ -26,7 +26,7 @@
       "selectedRelationships" : [ "success" ],
       "source" : {
         "comments" : "",
-        "groupId" : "8168cac5-0166-1000-1dd7-5dc9d87aeb1f",
+        "groupId" : "819e6283-0166-1000-86bf-27912fa89773",
         "id" : "45b86b5a-759b-333b-b6a0-c9c820a8ad1e",
         "name" : "GetFile",
         "type" : "PROCESSOR"
@@ -39,13 +39,13 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "8168cac5-0166-1000-1dd7-5dc9d87aeb1f",
+        "groupId" : "819e6283-0166-1000-86bf-27912fa89773",
         "id" : "e7829bfe-cb67-37b7-b731-7e3bb27cf295",
         "name" : "UpdateAttribute",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "a3c81ace-658b-3581-b8cc-55d3b68b5cd5",
+      "groupIdentifier" : "e4bffe34-7d03-3c6f-92bf-291c01c487c7",
       "identifier" : "1305f619-280f-358a-ba1d-9ac84519ba9b",
       "labelIndex" : 1,
       "name" : "",
@@ -53,7 +53,7 @@
       "selectedRelationships" : [ "success", "failure" ],
       "source" : {
         "comments" : "",
-        "groupId" : "8168cac5-0166-1000-1dd7-5dc9d87aeb1f",
+        "groupId" : "819e6283-0166-1000-86bf-27912fa89773",
         "id" : "5ba0b1ac-e926-3b5b-9d5c-088d65aa7868",
         "name" : "UpdateRecord",
         "type" : "PROCESSOR"
@@ -66,13 +66,13 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "8168cac5-0166-1000-1dd7-5dc9d87aeb1f",
+        "groupId" : "819e6283-0166-1000-86bf-27912fa89773",
         "id" : "5ba0b1ac-e926-3b5b-9d5c-088d65aa7868",
         "name" : "UpdateRecord",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "a3c81ace-658b-3581-b8cc-55d3b68b5cd5",
+      "groupIdentifier" : "e4bffe34-7d03-3c6f-92bf-291c01c487c7",
       "identifier" : "b9002054-8659-30ef-8d5b-13b12e27fa9e",
       "labelIndex" : 1,
       "name" : "",
@@ -80,7 +80,7 @@
       "selectedRelationships" : [ "success", "failure" ],
       "source" : {
         "comments" : "",
-        "groupId" : "8168cac5-0166-1000-1dd7-5dc9d87aeb1f",
+        "groupId" : "819e6283-0166-1000-86bf-27912fa89773",
         "id" : "c94f9036-2de3-3853-953c-e7733e598db2",
         "name" : "ConvertRecord",
         "type" : "PROCESSOR"
@@ -93,13 +93,13 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "8168cac5-0166-1000-1dd7-5dc9d87aeb1f",
+        "groupId" : "819e6283-0166-1000-86bf-27912fa89773",
         "id" : "c94f9036-2de3-3853-953c-e7733e598db2",
         "name" : "ConvertRecord",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "a3c81ace-658b-3581-b8cc-55d3b68b5cd5",
+      "groupIdentifier" : "e4bffe34-7d03-3c6f-92bf-291c01c487c7",
       "identifier" : "0778db2f-7685-30d6-af6b-61d1b52fb535",
       "labelIndex" : 1,
       "name" : "",
@@ -107,7 +107,7 @@
       "selectedRelationships" : [ "success" ],
       "source" : {
         "comments" : "",
-        "groupId" : "8168cac5-0166-1000-1dd7-5dc9d87aeb1f",
+        "groupId" : "819e6283-0166-1000-86bf-27912fa89773",
         "id" : "076dc4da-434d-3625-a76f-c728cf4528a0",
         "name" : "UpdateAttribute",
         "type" : "PROCESSOR"
@@ -120,13 +120,13 @@
       "componentType" : "CONNECTION",
       "destination" : {
         "comments" : "",
-        "groupId" : "8168cac5-0166-1000-1dd7-5dc9d87aeb1f",
+        "groupId" : "819e6283-0166-1000-86bf-27912fa89773",
         "id" : "b0b970c9-7e0c-35e1-bdb7-ec06e32eade3",
         "name" : "PutFile",
         "type" : "PROCESSOR"
       },
       "flowFileExpiration" : "0 sec",
-      "groupIdentifier" : "a3c81ace-658b-3581-b8cc-55d3b68b5cd5",
+      "groupIdentifier" : "e4bffe34-7d03-3c6f-92bf-291c01c487c7",
       "identifier" : "27bb2fe7-3947-3734-bfe5-5223526013a7",
       "labelIndex" : 1,
       "name" : "",
@@ -134,7 +134,7 @@
       "selectedRelationships" : [ "success" ],
       "source" : {
         "comments" : "",
-        "groupId" : "8168cac5-0166-1000-1dd7-5dc9d87aeb1f",
+        "groupId" : "819e6283-0166-1000-86bf-27912fa89773",
         "id" : "e7829bfe-cb67-37b7-b731-7e3bb27cf295",
         "name" : "UpdateAttribute",
         "type" : "PROCESSOR"
@@ -143,14 +143,14 @@
     } ],
     "controllerServices" : [ ],
     "funnels" : [ ],
-    "identifier" : "a3c81ace-658b-3581-b8cc-55d3b68b5cd5",
+    "identifier" : "e4bffe34-7d03-3c6f-92bf-291c01c487c7",
     "inputPorts" : [ ],
     "labels" : [ ],
     "name" : "CsvToJson",
     "outputPorts" : [ ],
     "position" : {
-      "x" : 1332.713446424792,
-      "y" : 20.920792363608655
+      "x" : 1239.323548984698,
+      "y" : -19.34372125181571
     },
     "processGroups" : [ ],
     "processors" : [ {
@@ -165,7 +165,7 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "a3c81ace-658b-3581-b8cc-55d3b68b5cd5",
+      "groupIdentifier" : "e4bffe34-7d03-3c6f-92bf-291c01c487c7",
       "identifier" : "45b86b5a-759b-333b-b6a0-c9c820a8ad1e",
       "name" : "GetFile",
       "penaltyDuration" : "30 sec",
@@ -276,7 +276,7 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "a3c81ace-658b-3581-b8cc-55d3b68b5cd5",
+      "groupIdentifier" : "e4bffe34-7d03-3c6f-92bf-291c01c487c7",
       "identifier" : "b0b970c9-7e0c-35e1-bdb7-ec06e32eade3",
       "name" : "PutFile",
       "penaltyDuration" : "30 sec",
@@ -357,7 +357,7 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "a3c81ace-658b-3581-b8cc-55d3b68b5cd5",
+      "groupIdentifier" : "e4bffe34-7d03-3c6f-92bf-291c01c487c7",
       "identifier" : "c94f9036-2de3-3853-953c-e7733e598db2",
       "name" : "ConvertRecord",
       "penaltyDuration" : "30 sec",
@@ -401,7 +401,7 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "a3c81ace-658b-3581-b8cc-55d3b68b5cd5",
+      "groupIdentifier" : "e4bffe34-7d03-3c6f-92bf-291c01c487c7",
       "identifier" : "5ba0b1ac-e926-3b5b-9d5c-088d65aa7868",
       "name" : "UpdateRecord",
       "penaltyDuration" : "30 sec",
@@ -413,7 +413,7 @@
         "record-writer" : "f7e665e0-8ac8-38c8-9bc6-922f29424c82",
         "record-reader" : "fffc3275-08a5-3dbe-98e4-741d11dca9c7",
         "replacement-value-strategy" : "literal-value",
-        "/DemoGender" : "${field.value:equals('f'):ifElse('103','105')}"
+        "/DemoGender" : "${field.value:equals('f'):ifElse('104','107')}"
       },
       "propertyDescriptors" : {
         "record-writer" : {
@@ -460,7 +460,7 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "a3c81ace-658b-3581-b8cc-55d3b68b5cd5",
+      "groupIdentifier" : "e4bffe34-7d03-3c6f-92bf-291c01c487c7",
       "identifier" : "e7829bfe-cb67-37b7-b731-7e3bb27cf295",
       "name" : "UpdateAttribute",
       "penaltyDuration" : "30 sec",
@@ -523,7 +523,7 @@
       "componentType" : "PROCESSOR",
       "concurrentlySchedulableTaskCount" : 1,
       "executionNode" : "ALL",
-      "groupIdentifier" : "a3c81ace-658b-3581-b8cc-55d3b68b5cd5",
+      "groupIdentifier" : "e4bffe34-7d03-3c6f-92bf-291c01c487c7",
       "identifier" : "076dc4da-434d-3625-a76f-c728cf4528a0",
       "name" : "UpdateAttribute",
       "penaltyDuration" : "30 sec",
